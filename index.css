@@ -1,0 +1,105 @@
+/*logo principal*/
+
+.logo-branca { 
+	margin-right: auto;
+	margin-left: auto;
+    display: block;
+    width: 180px;
+    margin-top: 70px;
+    padding-bottom: 130px;
+    cursor: pointer;
+}
+
+/*Slide*/
+
+.slide {
+	color: white;
+	font-size: 25px;
+	text-align: center;
+}
+
+.slides:first-child {
+	max-width: 940px;
+}
+
+.slides:nth-child(2) {
+	background: #00ff00;
+	padding: 20px 0;
+}
+
+.slides:nth-child(3) {
+	background: #0000ff;
+	padding: 20px 0;
+}
+
+/*consulta revisão reajuste*/
+
+.h-main {
+	margin-top: 40px;
+	display: grid;
+}
+
+.main-1, .main-2, .main-3 { 
+	background-size: 100%;
+	text-align: center;
+	padding: 90px 0;
+	font-size: 30px;
+	color: #ffffff;
+	margin-bottom: 30px;
+	margin-right: 80px;
+	border: solid 0px;
+	border-radius: 10px;
+	width: 80%;
+	cursor: pointer;
+}
+
+.main-1:hover, .main-2:hover, .main-3:hover {
+	font-size: 35px;
+	transition-duration: 1s;
+	box-shadow: 10px 10px 15px rgb(0,0,0,0.5);
+}
+
+.main-1 { 
+	background: #e8641b;;
+	background-repeat: none;
+}
+.main-2 {
+	background: #00a8ec;
+}
+
+.main-3 {
+	background: #00b034;
+}
+
+/*Rodapé*/
+
+@media screen and (max-width: 768px) {
+	.logo-branca {
+	margin-top: 20px;
+	padding-bottom: 20px;
+	}
+
+	.h-main {
+	}
+
+	.main-1, .main-2, .main-3, .h-main {
+		margin-right: auto;
+		margin-left: auto;
+		width: 90%;
+		color: #ffffff;
+		font-size: 30px;
+	}
+
+	.main-1 {
+		background: #e8641b;
+	}
+
+	.main-2 {
+		background: #00a8ec;
+	}
+
+	.main-3 {
+		background: #00b034;
+	}
+
+}
