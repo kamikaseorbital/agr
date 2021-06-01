@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width">
+		<title>AGR - home</title>
+		<link rel="stylesheet" href="reset.css">
+		<link rel="stylesheet" href="index.css">
+		<link rel="stylesheet" href="rodape.css">
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@600&display=swap" rel="stylesheet">
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+		<link rel="icon" href="C:\Users\joao-pdrf\Desktop\AGR-SITE\Site do zero\Imagens\icone.png">
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+	</head>
+
+	<body><font face="roboto">
+		<header class="cabecalho">
+			<section class="back"> <!--background do menu---> 
+				<h1 class="nome-agencia">Agência Goiana de Regulação, Controle e Fiscalização de Serviços Públicos Governo do Estado de Goiás</h1>
+				<div class="chec">
+					<input type="checkbox" id="chec">
+					<label for="chec">
+						<img class="menu-hamburge" src="https://image.flaticon.com/icons/png/512/55/55003.png">
+					</label>
+				</div>
+				<nav>
+					<ul class="nav">
+						<li><a href="agencia.html">Agência</a></li>
+						<li>Agenda de autoridades</li>
+						<li>Ouvidoria</li>
+						<li>Acesso a informação</li>
+					</ul>
+				</nav>
+				<img class="logo-branca" src="simbolo-vetor.png">
+			</section>
+		</header>	
+		<main>
+			<section class="slide">
+				<div>
+					<p class="slides"><img src="goias-na-frente.png"></p>
+					<p class="slides">Responsabilidade</p>
+					<p class="slides">Credibilidade</p>
+				</div>
+					<script>
+					var myIndex = 0;
+					carousel();
+
+					function carousel() {
+					  var i;
+					  var x = document.getElementsByClassName("slides");
+					  for (i = 0; i < x.length; i++) {
+					    x[i].style.display = "none";  
+					  }
+					  myIndex++;
+					  if (myIndex > x.length) {myIndex = 1}    
+					  x[myIndex-1].style.display = "block";  
+					  setTimeout(carousel, 7000); // muda a imagem a cada 2 segundos
+					}
+				</script>
+			</section>	
+
+			<section class="listas-fixa">
+				<ul class="lista-ind">
+					<p class="h-listas">Regulação e Fiscalização</p>
+					<li class="elemento-lista">Transporte</li>
+					<li class="elemento-lista">Energia</li>
+					<li class="elemento-lista">Gás Canalizado</li>
+					<li class="elemento-lista">Terminais Rodoviários</li>
+					<li class="elemento-lista">Saneamento</li>
+					<li class="elemento-lista">Parcerias Público Privados</li>
+					<li class="elemento-lista">Contratos com OSs</li>
+				</ul>
+				<ul class="lista-ind">
+					<p  class="h-listas">Estrutura Gestora</p>
+					<li class="elemento-lista">Conselho Regulador</li>
+					<li class="elemento-lista">Câmaras Setoriais</li>
+					<li class="elemento-lista">Câmara de Julgamento</li>
+				</ul>
+				<ul class="lista-ind">
+					<p  class="h-listas">Licitações e Contratos</p>
+					<li class="elemento-lista">Licitações</li>
+				</ul>
+			</section>
+
+			<section class="h-main">
+				<section class="main-1">
+					<p>Consulta Pública</p>
+				</section>
+
+				<section class="main-2">
+					<p>Revisão Tarifária</p> 
+				</section>
+
+				<section class="main-3">
+					<p>Reajuste Tarifário</p>
+				</section>
+
+			</section>
+
+			<section class="transparencia">
+					<font face="roboto"><p class="h-transparencia">Transparência</p></font>	
+					<ul>
+						<li class="icones-transparencia"><a href="http://www.transparencia.go.gov.br/portaldatransparencia/"><img src="logo_goias_transparente.png"></a></li>
+						<li class="icones-transparencia"><a href="https://www.agr.go.gov.br/acesso-a-informacao.html"><img src="logoAcessoAInformacao.png"></a></li>
+						<li class="icones-transparencia"><a href="http://www.cge.go.gov.br/ouvidoria/Register_1.php"><img src="logoESIC.png"></a></li>
+						<li class="icones-transparencia"><a href="https://www.controladoria.go.gov.br/"><img src="logoODPTransp.png"></a></li>
+						<li class="icones-transparencia"><a href="https://www.agr.go.gov.br/ouvidoria.html"><img src="logoOuvidoria.png"></a></li>
+						<li class="icones-transparencia"><a href="https://vaptvupt.go.gov.br/unidades"><img src="Imagens\logoSIC.png"></a></li>
+					</ul>
+				</section>
+		</main>
+
+		<footer class="rodape">
+			<section class="img-rodape">
+				<a href="http://www.transparencia.go.gov.br/portaldatransparencia/"><img class="img1" src="goias-transparente-branco.png">
+				<a href="https://www.goias.gov.br/"><img class="img2" src="logo.png"></a>
+			</section>
+			<p class="copyright">Desenvolvido para AGR | Copyright 2021</p>
+		</footer>
+
+	</body></font>
+
+</html>
